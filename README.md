@@ -2,6 +2,7 @@
 
 ## SOP
 - Premailer
+  - Add `?email` to end of URL
 - Paste into a new file `[issue_number].html` in `/static`
 - Remove everything in `<head>` except
   - `<meta charset="utf-8">`

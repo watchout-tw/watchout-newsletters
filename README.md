@@ -2,10 +2,10 @@
 
 ## SOP
 - Premailer
-  - Add `?email` to end of URL
+  - Such as http://premailer.dialect.ca/
 - Paste into a new file `[issue_number].html` in `/static`
 - Remove everything in `<head>` except
   - `<meta charset="utf-8">`
   - `<title>`
-- Remove `<script>` before `</body>`
+- Remove all `<script>`
 - Paste into mailing service as source code
